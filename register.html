@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+    </nav><br>
+    <h2>Register</h2><br>
+    <form action="http://localhost:3000/register" method="POST">
+        <label for="username" style="color: black;">Username:</label>
+        <input type="text" id="username" name="username" required style="color: black;">
+        <label for="password" style="color: black;">Password:</label>
+        <input type="password" id="password" name="password" required style="color: black;">
+        <label for="email" style="color: black;">Email:</label>
+        <input type="email" id="email" name="email" required style="color: black;">
+        <button type="submit" style="color: black;">Register</button>
+    </form><br>
+</body>
+</html>
