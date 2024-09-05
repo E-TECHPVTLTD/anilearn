@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="info.html">Info</a>
+        <a href="login.html">Login</a>
+    </nav>
+    <br>
+    <h2>Feedback</h2><br>
+    <form action="http://localhost:3000/feedback" method="POST">
+        <label for="name" style="color: black;">Name:</label>
+        <input type="text" id="name" name="name" required style="color: black;">
+        <label for="feedback" style="color: black;">Feedback:</label>
+        <textarea id="feedback" name="feedback" required style="color: black;"></textarea>
+        <button type="submit" style="color: black;">Submit</button>
+    </form>
+</body>
+</html>
